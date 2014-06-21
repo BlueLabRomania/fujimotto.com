@@ -13,4 +13,31 @@
 
 return array(
     // ...
+	'router' => array(
+			'routes' => array(
+					'home' => array(
+							'type' => 'Zend\Mvc\Router\Http\Literal',
+							'options' => array(
+									'route'    => '/',
+									'defaults' => array(
+											'controller' => 'Application\Controller\Index',
+											'action'     => 'index',
+									),
+							),
+					),
+			),
+	),
+	'db' => array(
+			'driver'         => 'Pdo',
+			'dsn'            => 'mysql:dbname=zf;host=localhost',
+			'driver_options' => array(
+					PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
+			),
+	),
+	'service_manager' => array(
+			'factories' => array(
+					'Zend\Db\Adapter\Adapter'
+					=> 'Zend\Db\Adapter\AdapterServiceFactory',
+			),
+	),
 );
