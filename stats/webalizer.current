@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 06/20/2014 08:47:11
-2014 6 20 8 47 11
-560 382 1 43 18 1 8368176 261 7 0 0 0
-1 47 249 17 20
+# Webalizer V2.23-08 Incremental Data - 06/23/2014 03:54:56
+2014 6 23 3 54 56
+2249 1709 1 64 36 4 25496161 909 25 0 0 0
+1 104 249 17 23
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
@@ -22,6 +22,9 @@
 88 25 188386 1 59 3 0 0
 88 60 565749 1 33 1 0 0
 382 295 7605815 1 168 2 0 0
+349 259 4662970 1 171 3 0 0
+883 755 9351456 1 311 13 0 0
+457 313 3113559 1 166 3 0 0
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
@@ -30,13 +33,10 @@
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0
-253 182 2999404 89 0 0
-105 84 716548 52 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+536 407 5059497 177 0 0
+244 195 1646346 101 0 0
+347 261 2513960 107 0 0
+335 266 2649849 94 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -44,23 +44,23 @@
 47 42 3956981 37 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
+70 52 346098 39 0 0
+23 21 129611 10 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
+9 9 8413 9 0 0
+52 47 316295 22 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-8 6 60634 1 0 0
-0 0 0 0 0 0
-70 46 437938 27 0 0
-77 22 196671 55 0 0
+54 39 324303 22 0 0
+85 74 1694495 46 0 0
+65 41 1998903 49 0 0
+24 14 141203 12 0 0
+139 91 1374633 71 0 0
+219 150 3335574 113 0 0
 0
 0
 0
-382
+1709
 0
 0
 0
@@ -68,17 +68,17 @@
 0
 0
 0
-1
-13
+2
+21
 0
-50
-0
-0
+212
 0
 0
 0
 0
-26
+0
+11
+189
 0
 0
 0
@@ -92,7 +92,7 @@
 0
 0
 0
-88
+105
 0
 0
 0
@@ -100,143 +100,227 @@
 0
 # -urls- 
 /js/jquery.min.js
-0 45 0 1476090 0 0 0 0
+0 212 0 6954024 0 0 0 0
 /phpmyadmin/tbl_change.php
-0 1 0 30489 0 0 0 0
+0 2 0 96618 0 0 0 0
+/application/index/index
+0 1 0 1717 0 0 0 0
 /phpmyadmin/
-0 16 0 37176 0 0 0 0
+0 32 0 67393 0 2 0 0
+/application/authentication/login
+0 2 0 1528 0 0 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_flat_75_ffffff_40x100.png
+1 1 0 86 0 0 0 0
+/phpmyadmin/themes/pmahomme/img/b_calendar.png
+1 1 0 638 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/logo_left.png
-1 1 0 2276 0 0 0 0
+1 2 0 4552 0 0 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+1 1 0 86 0 0 0 0
+/application/authentication/logout
+0 1 0 763 0 0 0 0
 /js/bootstrap.min.js
-0 45 0 327735 0 0 0 0
+0 212 0 1543996 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/arrow_ltr.png
-1 1 0 139 0 0 0 0
+1 2 0 278 0 0 0 0
 /album
-0 9 0 9776 0 0 0 0
+0 10 0 10813 1 1 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_222222_256x240.png
+1 1 0 3714 0 0 0 0
 /phpmyadmin/js/get_image.js.php
-0 3 0 18789 0 0 0 0
+0 5 0 31315 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/col_drop.png
-1 1 0 132 0 0 0 0
+1 2 0 264 0 0 0 0
 /phpmyadmin/navigation.php
-0 4 0 4141 0 0 0 0
+0 7 0 10543 0 1 0 0
 /favicon.ico
-0 3 0 7358 0 0 0 0
+0 10 0 113494 0 0 0 0
 /img/zf2-logo.png
-1 45 0 738 0 0 0 0
+1 212 0 5166 0 0 0 0
+/application/authentication/index
+0 3 0 1536 0 0 0 0
+/admin/
+0 1 0 763 0 0 0 0
+/phpmyadmin/tbl_create.php
+0 3 0 323338 1 0 0 0
 /album/delete/7
 0 1 0 913 0 0 0 0
-/album/add
-0 12 0 10977 1 0 0 0
 /img/favicon.ico
-0 5 0 1406 0 0 0 0
+0 10 0 7030 0 0 0 0
+/album/add
+0 16 0 14629 1 0 0 0
 /application
-0 3 0 5155 0 0 0 0
+0 5 0 7725 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/col_pointer.png
-1 1 0 113 0 0 0 0
+1 2 0 226 0 0 0 0
 /css/style.css
-0 45 0 18540 0 0 0 0
+0 212 0 87344 0 0 0 0
 /phpmyadmin/themes/pmahomme/jquery/jquery-ui-1.9.2.custom.css
-0 3 0 18531 0 0 0 0
+0 5 0 30885 0 0 0 0
 /album/delete/6
 0 4 0 3376 0 0 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_75_dadada_1x400.png
+1 1 0 159 0 0 0 0
 /album/
-0 18 0 18882 0 1 0 0
+0 72 0 74880 1 6 0 0
 /phpmyadmin/js/get_scripts.js.php
-0 10 0 4775941 0 0 0 0
+0 16 0 7400582 0 0 0 0
 /css/bootstrap.min.css
-0 45 0 749655 0 0 0 0
+0 212 0 3531708 0 0 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_65_ffffff_1x400.png
+1 1 0 97 0 0 0 0
+/_intellij_phpdebug_validator.php
+0 30 0 2192739 0 1 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png
+1 1 0 115 0 0 0 0
 /phpmyadmin/js/messages.php
-0 7 0 117495 0 0 0 0
+0 11 0 184635 0 0 0 0
 /phpmyadmin/db_sql.php
 0 1 0 6729 0 0 0 0
 /phpmyadmin/favicon.ico
-0 1 0 18902 0 0 0 0
+0 2 0 37804 0 0 0 0
 /phpmyadmin/db_structure.php
-0 3 0 26467 0 0 0 0
+0 5 0 50581 0 0 0 0
 /phpmyadmin/sql.php
-0 6 0 98820 0 0 0 0
+0 10 0 156446 1 0 0 0
 /phpmyadmin/themes/pmahomme/img/ajax_clock_small.gif
-1 1 0 1810 0 0 0 0
+1 2 0 3620 0 0 0 0
 /album/index/add
 0 1 0 916 0 0 0 0
 /phpmyadmin/phpmyadmin.css.php
-0 8 0 137424 0 0 0 0
+0 14 0 240492 0 0 0 0
 /css/bootstrap-theme.min.css
-0 45 0 79245 0 0 0 0
+0 212 0 373332 0 0 0 0
 /
-0 18 0 18952 5 4 0 0
+0 291 0 961630 17 9 0 0
+/application/index/
+0 1 0 1717 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/logo_right.png
-1 2 0 8584 0 0 0 0
+1 4 0 17168 0 0 0 0
+/phpmyadmin/tbl_structure.php
+0 1 0 51128 0 0 0 0
+/application/
+0 21 0 22233 0 0 0 0
 /phpmyadmin/themes/dot.gif
-1 1 0 43 0 0 0 0
+1 2 0 86 0 0 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png
+1 1 0 110 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/left_nav_bg.png
-1 1 0 228 0 0 0 0
+1 2 0 456 0 0 0 0
 /album/edit/1
-0 4 0 3635 0 0 0 0
+0 6 0 5539 0 0 0 0
 /admin
-0 6 0 3829 0 0 0 0
+0 10 0 6881 0 0 0 0
+/album/delete/1
+0 1 0 934 0 0 0 0
 /phpmyadmin/import.php
 0 1 0 16366 0 0 0 0
+/phpmyadmin/db_operations.php
+0 2 0 34815 0 0 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_454545_256x240.png
+1 1 0 3714 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/s_fulltext.png
-1 1 0 172 0 0 0 0
+1 2 0 344 0 0 0 0
 /phpmyadmin/themes/pmahomme/img/sprites.png
-1 1 0 38453 0 0 0 0
+1 2 0 76906 0 0 0 0
 /phpmyadmin/tbl_replace.php
-0 2 0 14230 0 0 0 0
+0 3 0 29474 0 0 0 0
 /album/delete/8
 0 1 0 919 0 0 0 0
 # End Of Table - urls
 # -sites- (monthly)
 192.168.1.100
-0 560 382 8368176 7 1403254031 0 0
-/phpmyadmin/
+0 2249 1709 25496161 25 1403495696 0 0
+/application/authentication/login
 # End Of Table - sites (monthly)
 # -sites- (daily)
 192.168.1.100
-0 382 295 7605815 2 1403254031 0 0
-/phpmyadmin/
+0 457 313 3113559 3 1403495696 0 0
+/application/authentication/login
 # End Of Table - sites (daily)
 # -referrers- 
+http://zf.dev/application/authentication/login/
+1 12
+http://zf.dev/application/authentication/index/
+1 19
 http://zf.fj/album/delete/8
 1 2
 http://zf.fj/
 1 54
 http://zf.fj/album/
 1 57
+http://zf.dev/album/delete/1
+1 2
+http://zf.dev/public/index.php
+1 6
+http://zf.dev/
+1 665
+http://zf.dev/application/index/
+1 54
 http://zf.fj/album
 1 104
+http://zf.dev/authentication/index/
+1 6
 http://zf.fj/phpmyadmin/
 1 9
 http://zf.fj/album/edit/1
 1 7
 - (Direct Request)
-0 165
+0 754
+http://zf.dev/application/
+1 59
 http://zf.fj/album/delete/7
 1 5
 http://zf.fj/phpmyadmin/phpmyadmin.css.php
+1 4
+http://zf.dev/phpmyadmin/db_operations.php
 1 4
 http://zf.fj/album/add
 1 36
 http://zf.fj/phpmyadmin/index.php
 1 57
+http://zf.dev/phpmyadmin/themes/pmahomme/jquery/jquery-ui-1.9.2.custom.css
+1 8
+http://zf.dev/application/authentication/index
+1 36
 http://zf.fj/album/index/add/
 1 24
 http://zf.fj/admin
 1 12
 http://zf.fj/album/add/
 1 6
+http://zf.dev/phpmyadmin/phpmyadmin.css.php
+1 4
+http://zf.dev/phpmyadmin/
+1 9
+http://zf.dev/album/index/
+1 6
+http://zf.dev/album/
+1 135
 http://zf.fj/phpmyadmin/sql.php
 1 4
 http://zf.fj/phpmyadmin/tbl_replace.php
 1 4
+http://zf.dev/application/authentication/login
+1 12
 http://zf.fj/album/delete/6
 1 4
+http://zf.dev/phpmyadmin/index.php
+1 51
 http://zf.fj/admin/asdsadas
 1 6
+http://zf.dev/application/index/index/
+1 12
 # End Of Table - referrers
 # -agents- 
+Jakarta Commons-HttpClient/3.1
+0 10
+Jakarta-Commons-VFS
+0 103
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+0 747
 Mozilla/5.0 (Windows NT 6.2; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0
-0 560
+0 1389
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

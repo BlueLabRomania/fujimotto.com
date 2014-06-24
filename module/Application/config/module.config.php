@@ -63,7 +63,8 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Application\Controller\Index' => 'Application\Controller\IndexController'
+            'Application\Controller\Index' => 'Application\Controller\IndexController',
+            'Application\Controller\Authentication' => 'Application\Controller\AuthenticationController',
         ),
     ),
     'view_manager' => array(
@@ -75,6 +76,9 @@ return array(
         'template_map' => array(
             'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
             'application/index/index' => __DIR__ . '/../view/application/index/index.phtml',
+            'application/authentication/index' => __DIR__ . '/../view/application/authentication/index.phtml',
+            'application/authentication/login' => __DIR__ . '/../view/application/authentication/login.phtml',
+            'application/authentication/logout' => __DIR__ . '/../view/application/authentication/logout.phtml',
             'error/404'               => __DIR__ . '/../view/error/404.phtml',
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ),

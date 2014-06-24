@@ -36,4 +36,17 @@ class Module
             ),
         );
     }
+
+    // Add this method:
+    public function getServiceConfig()
+    {
+        return array(
+            'factories' => array(
+                'DbAdapter' => function ($sm) {
+                        $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+                        return $dbAdapter;
+                    },
+            ),
+        );
+    }
 }
